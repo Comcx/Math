@@ -1,0 +1,20 @@
+#+TITLE:  Calculus
+#+AUTHOR: Comcx
+#+DATE:   <2019-10-04 五>
+
+* /Limit/
+
+** Definition
+  We say 
+    lim_{x\to\infty} f(x) *=* L
+  means that
+  for each \epsilon > 0, there exists a \delta > 0 such that if
+    0 < |x - c| < \delta, then |f(x) - L| < \epsilon
+
+** Evaluating
+  
+
+* /Derivative/
+
+
+
