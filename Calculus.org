@@ -45,19 +45,35 @@
   Differentiable => Continuous
   
 ** Definition
-  f'(x) = lim_{\Delta x\to0} (f(x + \Delta x) - f(x)) / \Delta x 
+    f'(x) = lim_{\Delta x\to0} (f(x + \Delta x) - f(x)) / \Delta x 
 
 ** Evaluation
-  - Constant => 0
-  - Power
-  - *Linear*
-  - Triangle
-  - Product
-  - Quotient
-  - *Chain Rule*
+*** Explicit
+    - Constant => 0
+    - Power
+    - *Linear*
+    - Triangle
+    - Product
+    - Quotient
+    - *Chain Rule*
 
+*** Implicit
+    1) Differentiate both sides
+    2) Collect all terms involving /dy/dx/
+    3) Solve for /dy/dx/
+
+** Application
+*** Extrema of Function
+*** Rolle's Theorem
+*** Mean Value Theorem
+*** Concavity ~ Second derivative
+*** Limits at Infinity
+*** _Newton's Method_
 
 * Integration
+
+** Definition
+
 
 
 
