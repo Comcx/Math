@@ -5,16 +5,59 @@
 * /Limit/
 
 ** Definition
-  We say 
-    lim_{x\to\infty} f(x) *=* L
+  We say
+ 
+    lim_{x\to\infty} f(x) *=* /L/
+      
   means that
   for each \epsilon > 0, there exists a \delta > 0 such that if
+
     0 < |x - c| < \delta, then |f(x) - L| < \epsilon
 
 ** Evaluating
-  
+*** Composition
+   Let {/b/ /c}/ : Real, /n/ : Positive Int
+   Let f, g be functions with the following limits:
+
+     lim_{x\to c} f(x) = /L/ and lim_{x\to c} g(x) = /K/ 
+
+   - lim_{x\to c} [bf(x)] = bL
+   - lim_{x\to c} [f(x) \pm g(x)] = L \pm K
+   - lim_{x\to c} [f(x)g(x)] = LK        
+   - lim_{x\to c} [f(x) / g(x)] = L / K  
+   - lim_{x\to c} [f(x)]^n = L^n        
+   - lim_{x\to c} f(g(x)) = f(lim_{x\to c} g(x)) = f(K)
+
+*** Squeeze Theorem
+*** Continuity
+**** Definition
+    lim_{x\to c} f(x) = f(c)
+    
+    if limit exist and f is reachable at c
+
+**** Composition
+**** Intermediate Value Theorem    
+** Infinity
+*** Definition
+*** Composition(\infty and L)
 
 * /Derivative/
+  Differentiable => Continuous
+  
+** Definition
+  f'(x) = lim_{\Delta x\to0} (f(x + \Delta x) - f(x)) / \Delta x 
+
+** Evaluation
+  - Constant => 0
+  - Power
+  - *Linear*
+  - Triangle
+  - Product
+  - Quotient
+  - *Chain Rule*
+
+
+* Integration
 
 
 
