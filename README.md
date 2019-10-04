@@ -1,4 +1,4 @@
-# Math.hs
+# Math
 Play yard of Math experiments
 
 - Planning to program both in Haskell and Agda.
