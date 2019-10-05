@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-10-04 五 20:44 -->
+<!-- 2019-10-05 六 12:08 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Calculus</title>
@@ -234,60 +234,70 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org24019f0">1. <i>Limit</i></a>
+<li><a href="#org427a0d9">1. <i>Limit</i></a>
 <ul>
-<li><a href="#org98085b6">1.1. Definition</a></li>
-<li><a href="#orgcf2f98c">1.2. Evaluating</a>
+<li><a href="#orga1b7ca9">1.1. Definition</a></li>
+<li><a href="#org0da7236">1.2. Evaluating</a>
 <ul>
-<li><a href="#org6c5f918">1.2.1. Composition</a></li>
-<li><a href="#orga7d1fc7">1.2.2. Squeeze Theorem</a></li>
-<li><a href="#orgf29d259">1.2.3. Continuity</a></li>
+<li><a href="#org4b536a6">1.2.1. Composition</a></li>
+<li><a href="#org3476508">1.2.2. Squeeze Theorem</a></li>
+<li><a href="#org4c4dc85">1.2.3. Continuity</a></li>
 </ul>
 </li>
-<li><a href="#org4628e4a">1.3. Infinity</a>
+<li><a href="#orgb7b87b1">1.3. Infinity</a>
 <ul>
-<li><a href="#orgb382420">1.3.1. Definition</a></li>
-<li><a href="#org0aec5d8">1.3.2. Composition(&infin; and L)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgeaea7c7">2. <i>Derivative</i></a>
-<ul>
-<li><a href="#orge60b4dc">2.1. Definition</a></li>
-<li><a href="#org0254261">2.2. Evaluation</a>
-<ul>
-<li><a href="#org8ce8dbb">2.2.1. Explicit</a></li>
-<li><a href="#orgff81ad8">2.2.2. Implicit</a></li>
-</ul>
-</li>
-<li><a href="#orgcefe8f1">2.3. Application</a>
-<ul>
-<li><a href="#orgd8c648c">2.3.1. Extrema of Function</a></li>
-<li><a href="#org703252a">2.3.2. Rolle's Theorem</a></li>
-<li><a href="#org1f330c5">2.3.3. Mean Value Theorem</a></li>
-<li><a href="#orgce71430">2.3.4. Concavity ~ Second derivative</a></li>
-<li><a href="#org9668224">2.3.5. Limits at Infinity</a></li>
-<li><a href="#org543569a">2.3.6. <span class="underline">Newton's Method</span></a></li>
+<li><a href="#org796fe3e">1.3.1. Definition</a></li>
+<li><a href="#org0e953dc">1.3.2. Composition(&infin; and L)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgca1733d">3. Integration</a>
+<li><a href="#org84da853">2. <i>Derivative</i></a>
 <ul>
-<li><a href="#org50a2499">3.1. Definition</a></li>
+<li><a href="#orgcf9a2a2">2.1. Definition</a></li>
+<li><a href="#org5708e97">2.2. Evaluation</a>
+<ul>
+<li><a href="#orgb59631d">2.2.1. Explicit</a></li>
+<li><a href="#orga16bf89">2.2.2. Implicit</a></li>
+</ul>
+</li>
+<li><a href="#orga37a623">2.3. Application</a>
+<ul>
+<li><a href="#orgca6f56b">2.3.1. Extrema of Function</a></li>
+<li><a href="#org8a61901">2.3.2. Rolle's Theorem</a></li>
+<li><a href="#orgc51faae">2.3.3. Mean Value Theorem</a></li>
+<li><a href="#org81a8161">2.3.4. Concavity ~ Second derivative</a></li>
+<li><a href="#org85623d2">2.3.5. Limits at Infinity</a></li>
+<li><a href="#org0531b78">2.3.6. <span class="underline">Newton's Method</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org481e005">3. Integration</a>
+<ul>
+<li><a href="#org8f9c691">3.1. Definition</a></li>
+<li><a href="#org6141f2b">3.2. Evaluation</a></li>
+<li><a href="#org878aecd">3.3. Application</a>
+<ul>
+<li><a href="#orgde4298c">3.3.1. <span class="underline">The fundamental Theorem</span></a></li>
+<li><a href="#org9d73a1a">3.3.2. Area</a></li>
+<li><a href="#org6664f2a">3.3.3. Mean Value Theorem</a></li>
+<li><a href="#org655f89b">3.3.4. Logarithmic Function</a></li>
+<li><a href="#orgad95f98">3.3.5. Arc length</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org24019f0" class="outline-2">
-<h2 id="org24019f0"><span class="section-number-2">1</span> <i>Limit</i></h2>
+<div id="outline-container-org427a0d9" class="outline-2">
+<h2 id="org427a0d9"><span class="section-number-2">1</span> <i>Limit</i></h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org98085b6" class="outline-3">
-<h3 id="org98085b6"><span class="section-number-3">1.1</span> Definition</h3>
+<div id="outline-container-orga1b7ca9" class="outline-3">
+<h3 id="orga1b7ca9"><span class="section-number-3">1.1</span> Definition</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 We say
@@ -308,12 +318,12 @@ for each &epsilon; &gt; 0, there exists a &delta; &gt; 0 such that if
 </div>
 </div>
 
-<div id="outline-container-orgcf2f98c" class="outline-3">
-<h3 id="orgcf2f98c"><span class="section-number-3">1.2</span> Evaluating</h3>
+<div id="outline-container-org0da7236" class="outline-3">
+<h3 id="org0da7236"><span class="section-number-3">1.2</span> Evaluating</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-org6c5f918" class="outline-4">
-<h4 id="org6c5f918"><span class="section-number-4">1.2.1</span> Composition</h4>
+<div id="outline-container-org4b536a6" class="outline-4">
+<h4 id="org4b536a6"><span class="section-number-4">1.2.1</span> Composition</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Let {<i>b</i> <i>c}</i> : Real, <i>n</i> : Positive Int
@@ -335,15 +345,15 @@ lim<sub>x&rarr; c</sub> f(x) = <i>L</i> and lim<sub>x&rarr; c</sub> g(x) = <i>K<
 </div>
 </div>
 
-<div id="outline-container-orga7d1fc7" class="outline-4">
-<h4 id="orga7d1fc7"><span class="section-number-4">1.2.2</span> Squeeze Theorem</h4>
+<div id="outline-container-org3476508" class="outline-4">
+<h4 id="org3476508"><span class="section-number-4">1.2.2</span> Squeeze Theorem</h4>
 </div>
-<div id="outline-container-orgf29d259" class="outline-4">
-<h4 id="orgf29d259"><span class="section-number-4">1.2.3</span> Continuity</h4>
+<div id="outline-container-org4c4dc85" class="outline-4">
+<h4 id="org4c4dc85"><span class="section-number-4">1.2.3</span> Continuity</h4>
 <div class="outline-text-4" id="text-1-2-3">
 </div>
 <ol class="org-ol">
-<li><a id="orgbfa45d0"></a>Definition<br />
+<li><a id="org5bb17d8"></a>Definition<br />
 <div class="outline-text-5" id="text-1-2-3-1">
 <p>
 lim<sub>x&rarr; c</sub> f(x) = f(c)
@@ -355,34 +365,34 @@ if limit exist and f is reachable at c
 </div>
 </li>
 
-<li><a id="org64f545f"></a>Composition<br /></li>
-<li><a id="org4821875"></a>Intermediate Value Theorem<br /></li>
+<li><a id="orgef4a52a"></a>Composition<br /></li>
+<li><a id="org8b90ec4"></a>Intermediate Value Theorem<br /></li>
 </ol>
 </div>
 </div>
-<div id="outline-container-org4628e4a" class="outline-3">
-<h3 id="org4628e4a"><span class="section-number-3">1.3</span> Infinity</h3>
+<div id="outline-container-orgb7b87b1" class="outline-3">
+<h3 id="orgb7b87b1"><span class="section-number-3">1.3</span> Infinity</h3>
 <div class="outline-text-3" id="text-1-3">
 </div>
-<div id="outline-container-orgb382420" class="outline-4">
-<h4 id="orgb382420"><span class="section-number-4">1.3.1</span> Definition</h4>
+<div id="outline-container-org796fe3e" class="outline-4">
+<h4 id="org796fe3e"><span class="section-number-4">1.3.1</span> Definition</h4>
 </div>
-<div id="outline-container-org0aec5d8" class="outline-4">
-<h4 id="org0aec5d8"><span class="section-number-4">1.3.2</span> Composition(&infin; and L)</h4>
+<div id="outline-container-org0e953dc" class="outline-4">
+<h4 id="org0e953dc"><span class="section-number-4">1.3.2</span> Composition(&infin; and L)</h4>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgeaea7c7" class="outline-2">
-<h2 id="orgeaea7c7"><span class="section-number-2">2</span> <i>Derivative</i></h2>
+<div id="outline-container-org84da853" class="outline-2">
+<h2 id="org84da853"><span class="section-number-2">2</span> <i>Derivative</i></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Differentiable =&gt; Continuous
 </p>
 </div>
 
-<div id="outline-container-orge60b4dc" class="outline-3">
-<h3 id="orge60b4dc"><span class="section-number-3">2.1</span> Definition</h3>
+<div id="outline-container-orgcf9a2a2" class="outline-3">
+<h3 id="orgcf9a2a2"><span class="section-number-3">2.1</span> Definition</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 f'(x) = lim<sub>&Delta; x&rarr;0</sub> (f(x + &Delta; x) - f(x)) / &Delta; x 
@@ -390,12 +400,12 @@ f'(x) = lim<sub>&Delta; x&rarr;0</sub> (f(x + &Delta; x) - f(x)) / &Delta; x
 </div>
 </div>
 
-<div id="outline-container-org0254261" class="outline-3">
-<h3 id="org0254261"><span class="section-number-3">2.2</span> Evaluation</h3>
+<div id="outline-container-org5708e97" class="outline-3">
+<h3 id="org5708e97"><span class="section-number-3">2.2</span> Evaluation</h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org8ce8dbb" class="outline-4">
-<h4 id="org8ce8dbb"><span class="section-number-4">2.2.1</span> Explicit</h4>
+<div id="outline-container-orgb59631d" class="outline-4">
+<h4 id="orgb59631d"><span class="section-number-4">2.2.1</span> Explicit</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <ul class="org-ul">
 <li>Constant =&gt; 0</li>
@@ -409,8 +419,8 @@ f'(x) = lim<sub>&Delta; x&rarr;0</sub> (f(x + &Delta; x) - f(x)) / &Delta; x
 </div>
 </div>
 
-<div id="outline-container-orgff81ad8" class="outline-4">
-<h4 id="orgff81ad8"><span class="section-number-4">2.2.2</span> Implicit</h4>
+<div id="outline-container-orga16bf89" class="outline-4">
+<h4 id="orga16bf89"><span class="section-number-4">2.2.2</span> Implicit</h4>
 <div class="outline-text-4" id="text-2-2-2">
 <ol class="org-ol">
 <li>Differentiate both sides</li>
@@ -421,44 +431,101 @@ f'(x) = lim<sub>&Delta; x&rarr;0</sub> (f(x + &Delta; x) - f(x)) / &Delta; x
 </div>
 </div>
 
-<div id="outline-container-orgcefe8f1" class="outline-3">
-<h3 id="orgcefe8f1"><span class="section-number-3">2.3</span> Application</h3>
+<div id="outline-container-orga37a623" class="outline-3">
+<h3 id="orga37a623"><span class="section-number-3">2.3</span> Application</h3>
 <div class="outline-text-3" id="text-2-3">
 </div>
-<div id="outline-container-orgd8c648c" class="outline-4">
-<h4 id="orgd8c648c"><span class="section-number-4">2.3.1</span> Extrema of Function</h4>
+<div id="outline-container-orgca6f56b" class="outline-4">
+<h4 id="orgca6f56b"><span class="section-number-4">2.3.1</span> Extrema of Function</h4>
 </div>
-<div id="outline-container-org703252a" class="outline-4">
-<h4 id="org703252a"><span class="section-number-4">2.3.2</span> Rolle's Theorem</h4>
+<div id="outline-container-org8a61901" class="outline-4">
+<h4 id="org8a61901"><span class="section-number-4">2.3.2</span> Rolle's Theorem</h4>
 </div>
-<div id="outline-container-org1f330c5" class="outline-4">
-<h4 id="org1f330c5"><span class="section-number-4">2.3.3</span> Mean Value Theorem</h4>
+<div id="outline-container-orgc51faae" class="outline-4">
+<h4 id="orgc51faae"><span class="section-number-4">2.3.3</span> Mean Value Theorem</h4>
 </div>
-<div id="outline-container-orgce71430" class="outline-4">
-<h4 id="orgce71430"><span class="section-number-4">2.3.4</span> Concavity ~ Second derivative</h4>
+<div id="outline-container-org81a8161" class="outline-4">
+<h4 id="org81a8161"><span class="section-number-4">2.3.4</span> Concavity ~ Second derivative</h4>
 </div>
-<div id="outline-container-org9668224" class="outline-4">
-<h4 id="org9668224"><span class="section-number-4">2.3.5</span> Limits at Infinity</h4>
+<div id="outline-container-org85623d2" class="outline-4">
+<h4 id="org85623d2"><span class="section-number-4">2.3.5</span> Limits at Infinity</h4>
 </div>
-<div id="outline-container-org543569a" class="outline-4">
-<h4 id="org543569a"><span class="section-number-4">2.3.6</span> <span class="underline">Newton's Method</span></h4>
+<div id="outline-container-org0531b78" class="outline-4">
+<h4 id="org0531b78"><span class="section-number-4">2.3.6</span> <span class="underline">Newton's Method</span></h4>
+<div class="outline-text-4" id="text-2-3-6">
+<p>
+a little confused&#x2026;
+</p>
+</div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgca1733d" class="outline-2">
-<h2 id="orgca1733d"><span class="section-number-2">3</span> Integration</h2>
+<div id="outline-container-org481e005" class="outline-2">
+<h2 id="org481e005"><span class="section-number-2">3</span> Integration</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org50a2499" class="outline-3">
-<h3 id="org50a2499"><span class="section-number-3">3.1</span> Definition</h3>
+<div id="outline-container-org8f9c691" class="outline-3">
+<h3 id="org8f9c691"><span class="section-number-3">3.1</span> Definition</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+&int; F'(x)dx = F(x)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6141f2b" class="outline-3">
+<h3 id="org6141f2b"><span class="section-number-3">3.2</span> Evaluation</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li><b>Linear</b></li>
+<li>Constant</li>
+<li>Power(n &ne; -1)</li>
+<li><b>Composition</b></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org878aecd" class="outline-3">
+<h3 id="org878aecd"><span class="section-number-3">3.3</span> Application</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-orgde4298c" class="outline-4">
+<h4 id="orgde4298c"><span class="section-number-4">3.3.1</span> <span class="underline">The fundamental Theorem</span></h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+&int;<sub>a</sub><sup>b</sup> f'(x) = f(b) - f(a)
+</p>
+</div>
+</div>
+<div id="outline-container-org9d73a1a" class="outline-4">
+<h4 id="org9d73a1a"><span class="section-number-4">3.3.2</span> Area</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li>Sum notation
+<ul class="org-ul">
+<li><b>Linear</b></li>
+</ul></li>
+<li>Riemann Sums</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6664f2a" class="outline-4">
+<h4 id="org6664f2a"><span class="section-number-4">3.3.3</span> Mean Value Theorem</h4>
+</div>
+<div id="outline-container-org655f89b" class="outline-4">
+<h4 id="org655f89b"><span class="section-number-4">3.3.4</span> Logarithmic Function</h4>
+</div>
+<div id="outline-container-orgad95f98" class="outline-4">
+<h4 id="orgad95f98"><span class="section-number-4">3.3.5</span> Arc length</h4>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: 2019-10-04 五 00:00</p>
 <p class="author">Author: Comcx</p>
-<p class="date">Created: 2019-10-04 五 20:44</p>
+<p class="date">Created: 2019-10-05 六 12:08</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

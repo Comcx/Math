@@ -69,10 +69,32 @@
 *** Concavity ~ Second derivative
 *** Limits at Infinity
 *** _Newton's Method_
+    a little confused...
 
 * Integration
 
 ** Definition
+    \int F'(x)dx = F(x)
+
+** Evaluation
+    - *Linear*
+    - Constant
+    - Power(n \neq -1)
+    - *Composition* 
+
+** Application
+*** _The fundamental Theorem_ 
+    \int_{a}^{b} f'(x) = f(b) - f(a)
+*** Area
+    - Sum notation
+      - *Linear*
+    - Riemann Sums
+*** Mean Value Theorem
+*** Logarithmic Function
+*** Arc length
+
+
+
 
 
 
