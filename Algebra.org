@@ -2,10 +2,10 @@
 #+AUTHOR: Comcx
 #+DATE:   <2019-10-04 五>
 
-* Monoid
-* Group
+** Monoid
+** Group
 
-** Definition
+*** Definition
 
 A group is a set, G, together with an operation • 
 (called the group law of G) that combines any two elements a and b to form another element, 
@@ -23,11 +23,27 @@ the set and operation, (G, •), must satisfy four requirements known as the gro
   For each a in G, there exists an element b in G, commonly denoted a^-1 (or −a, if the operation is denoted "+"), 
   such that a • b = b • a = e, where e is the identity element.
 
-** Homomorphism
+*** Homomorphism
 
-** Isomorphism
+*** Isomorphism
 
-* Ring
+** Ring
+
+** Vector Space
+
+A vector space V is defined to be a structure where
+- K : Field
+- E : Vector K
+- + : E -> E -> E
+- . : K -> E -> E
+  /satisfying/
+  1. E is an abelian group
+  2. a . (u + v) = (a . u) + (a . v)
+  3. (a + b) . u = (a . u) + (b . u)
+  4. (a * b) . u = a . (b . u)
+  5. 1 . u = u
+
+
 
 
 
